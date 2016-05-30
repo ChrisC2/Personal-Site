@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link src="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" type="text/css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/VincentGarreau/particles.js/master/particles.js" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" >
+      <link rel="stylesheet" href="styles/styles.css" >
+  </head>
+  <body>
+    <div class="navbar-fixed">
+    <nav class="grey darken-3 border">
+    <div class="nav-wrapper">
+
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons lime-text text-accent-3">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="Mhome lime-text text-accent-3">Home</a></li>
+        <li><a class="MaboutMe lime-text text-accent-3">About Me</a></li>
+        <li><a class="Mservices lime-text text-accent-3">Technical Skills</a></li>
+        <li><a class="Mwork lime-text text-accent-3">Portfolio</a></li>
+      </ul>
+      <ul class="side-nav grey darken-3" id="mobile-demo">
+        <li class="Mhome lime-text text-accent-3">Home</li>
+        <li class="MaboutMe lime-text text-accent-3">About Me</li>
+        <li class="Mservices lime-text text-accent-3">Technical Skills</li>
+        <li class="Mwork lime-text text-accent-3">Portfolio</li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div id="particles-js"></div>
+    <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="seven columns headline">
+          <img class="profile-pic" src="styles/images/LinkedInPic2.jpg">
+          <div>CHRIS CASTILLO</div>
+          <hr width="40%">
+          <div class="secondH">Full Stack Software Engineer</div>
+          <button class="waves-effect lime accent-3 btn Mcontact">Contact Me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section aboutMe" id="aboutMe">
+    <div class="container">
+      <div class="row">
+        <div class="twelve column">
+          <h1>About Me</h1></div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <p>
+            I'm a full stack software engineer, graduate of UCLA, and Hack Reactor/ MakerSquare's 700+
+            hour Advanced Software Engineering Immersive. My love for the software engineering world came somewhat
+            surprisingly and with the help of a great friend. He, also being CS grad from MIT introduced me to new possibilities within the exciting
+            and fast paced world of software. From the moment I created my first rock, paper, scissors game I knew where I ultimately belonged.
+          </p>
+          <p>
+            Fast forward to now, I've led and collaborated with engineers on multiple applications shifting between server-side and front-end roles.
+            I love working with UI, UX and frameworks including Angular.JS & React.JS and also have substantial experience with
+            back-end technologies including Node.JS, Express, MySQL, PostgreSQL and Bookshelf.JS.
+            Insatiably curious, I love a fresh challenge, picking up new technologies and using my creativity to develop meaningful applications with valuable outcomes.
+          </p>
+          <p>
+            When I'm not diving into code, I love to surf, snowboard and maintain a healthy lifestyle. I have also been crazy about cars since
+            just about the day I was born and in the near future plan on racing semi-competitively. Oh, and just as a fair warning
+            I might claim the title of ping pong champion if we ever happen to share the same office.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section services" id="services">
+    <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h1 class="tech-exp">Technical Skills</h1></div></div>
+    <div class="row">
+      <div class="four columns">
+        <div class="chart" data-percent="90">HTML5</div>
+        <div class="chart" data-percent="70">CSS3</div>
+        <div class="chart" data-percent="90">JavaScript</div>
+        <div class="chart" data-percent="70">AngularJS</div>
+        <div class="chart" data-percent="60">ReactJS</div>
+        <div class="chart" data-percent="20">BackboneJS</div>
+        <div class="chart" data-percent="70">jQuery</div>
+        <div class="chart" data-percent="70">Bookshelf.js</div>
+        <div class="chart" data-percent="70">Sequelize.js</div>
+        <div class="chart" data-percent="80">NodeJS</div>
+        <div class="chart" data-percent="70">MySQL</div>
+        <div class="chart" data-percent="60">PostgreSQL</div>
+        <div class="chart" data-percent="30">Mocha/Chai</div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="section portfolio" id="portfolio">
+    <div class="row">
+      <div class="twelve column">
+        <h1>Portfolio</h1></div>
+    </div>
+    <div class="row">
+        <div class="col s4">
+          <a class="modal-trigger" href="#FFIT"><img class="ffit z-depth-5" src="styles/images/FFIT.jpg"/></a>
+          <p><strong>FFIT | Product Owner & Software Engineer</strong></p>
+          <div id="FFIT" class="modal">
+            <div class="modal-content modal-text">
+              <p><strong>FFIT | Product Owner & Software Engineer</strong></p>
+              <p><strong>Description:</strong><br> A mobile social networking app which allows users to match with fellow fitness enthusiasts in their area to collaborate on common goals</p>
+              <p><strong>Features:</strong><br> Facebook authentication, newsfeed, messaging via web sockets, user profiles, friends, friend requests, geolocation matching, Highcharts progress tracking, daily challenges</p>
+              <p><strong>Given More Time:</strong> <br>
+                Achievement/Badging system and integration with Fitbit API to gather activity/heart rate data
+                and ability for users to challenge friends on meeting activity goals</p>
+                <p><strong>Tech Stack:</strong> Angular.js, Ionic, Cordova, Node.js, Socket.io, Express, Bookshelf.js, Passport.js, Bluebird.js, MySQL, Mocha, Chai, HTML5, CSS3</p>
+                <p><i><a href="https://ffit.herokuapp.com/">Link to FFIT</a></i><strong>  | </strong><i><a href="https://github.com/ChrisC2/crptFit">FFIT Repository</a></i></p>
+              </div>
+            </div>
+        </div>
+        <div class="col s4">
+          <a class="modal-trigger" href="#surveyor"><img class="surveyor z-depth-5" src="styles/images/surveyor.png"/></a>
+          <p><strong>Surveyor | Product Owner & Software Engineer</strong></p>
+          <div id="surveyor" class="modal">
+            <div class="modal-content modal-text">
+              <p><strong>Surveyor | Product Owner & Software Engineer</strong></p>
+              <p><strong>Description:</strong><br> The app allows Admin's to enter survey questions with multiple choice answers and view their survey results while guests can answer questions at random.</p>
+              <p><strong>Features:</strong><br>ZingChart survey results visualizations, Admin/Guest authentication, responsive styling </p>
+              <p><strong>Tech Stack:</strong> AngularJS, PassportJS, NodeJS, Express, MySQL, SequelizeJS, ZingChart, HTML5, CSS3</p>
+              <p><i><a href="https://rocky-river-14939.herokuapp.com/#/">Link to Surveyor</a></i><strong>  | </strong><i><a href="https://github.com/ChrisC2/Surveyor">Surveyor Repository</a></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <a class="modal-trigger" href="#Venshur"><img class="Venshur z-depth-5" src="styles/images/Venshur.png"/></a>
+          <p><strong>Venshur | Product Owner & Software Engineer</strong></p>
+          <div id="Venshur" class="modal">
+            <div class="modal-content modal-text">
+              <p><strong>Venshur | Product Owner & Software Engineer</strong></p>
+              <p><strong>Description:</strong><br> Allows users to share and browse collections of photos from specific hashtagged adventures/trips and reference each photo’s location on a map</p>
+              <p><strong>Features:</strong><br> Instagram authentication, fetches photos from a user's profile with a specific trip hashtag and location tag, appends the photos from a trip onto the map and provides enlarged modal views on click events</p>
+              <p><strong>Given More Time:</strong> <br>
+                Replace Instagram authentication strategy with local strategy, go mobile in order to access camera hardware and capture photos on the app itself,
+               utilize image hosting api to host captured photos, implement a trip timeline and sequence of events for a specific trip, and allow users to customize a trip based on other user's destinations they like</p>
+                <p><strong>Tech Stack:</strong> Angular.js, Node.js, Express, Bookshelf.js, Postgres, Passport.js, Google Maps API, Instagram API, HTML5, CSS3</p>
+                <p><i><a href="https://venshur.herokuapp.com/">Link to Venshur</a></i></i><strong>  | </strong><i><a href="https://github.com/ChrisC2/smiling-dolphins">Venshur Repository</a></i></p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s4">
+          <a class="modal-trigger" href="#mem-game"><img class="mem-game z-depth-5" src="styles/images/mem-game.png"/></a>
+          <p><strong>Memory Game | Product Owner & Software Engineer</strong></p>
+          <div id="mem-game" class="modal">
+            <div class="modal-content modal-text">
+              <p><strong>Memory Game | Product Owner & Software Engineer</strong></p>
+              <p><strong>Description:</strong><br> This is an implementation of a memory game in which a user attempts to find all the matching tiles in the set.</p>
+              <p><strong>Features:</strong><br>Included are three difficulty modes, 3D flip animations, score keeping, responsive styling based on difficulty settings.</p>
+              <p><strong>Tech Stack:</strong> React.js, ES6, Webpack, HTML5, CSS3</p>
+              <p><i><a href="https://incandescent-torch-7044.firebaseapp.com/">Link to Memory Game</a></i></i><strong>  | </strong><i><a href="https://github.com/ChrisC2/MemoryGame">Memory Game Repository</a></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <a class="modal-trigger" href="#Spectacle"><img class="spectacle z-depth-5" src="styles/images/Spectacle.jpg"/></a>
+          <p><strong>Spectacle | Product Owner & Software Engineer</strong></p>
+          <div id="Spectacle" class="modal">
+            <div class="modal-content modal-text">
+              <p><strong>Spectacle | Product Owner & Software Engineer</strong></p>
+              <p><strong>Description:</strong><br>Spectacle is small personal project developed into a mobile app in less than 24 hours which allows user's to view trending Instagram photos taken within a 5 mile radius of their current location</p>
+              <p><strong>Features:</strong><br>Fetches a current location, displays the location on the map, fetches Instagram photos based on location, dynamically renders photos, and provides enlarged modal views on click/tap events</p>
+              <p><strong>Tech Stack:</strong> Angular.js, Ionic, Cordova, Node.js, Express, Google Geolocation API, Google Maps API, Instagram API, HTML5, CSS3</p>
+              <p><i>Link to Spectacle Coming Soon...</i></i><strong>  | </strong><i><a href="https://github.com/ChrisC2/Spectacle">Spectacle Repository</a></i></p>
+              </div>
+            </div>
+        </div>
+        <div class="col s4">
+          <a class="modal-trigger" href="#lldj"><img class="lldj z-depth-5" src="styles/images/LLDJ.jpg"/></a>
+          <p><strong>LLDJ | Software Engineer</strong></p>
+          <div id="lldj" class="modal">
+            <div class="modal-content modal-text">
+              <p><strong>LLDJ | Software Engineer</strong></p>
+              <p><strong>Description:</strong><br> LLDJ allows users to either host a jam or join a jam to listen to a playlist provided by a host</p>
+              <p><strong>Features:</strong><br>Fetches songs via SoundCloud API or videos via YouTube API and adds them to a queue. Once a song/video ends the next item in the queue is played.</p>
+              <p><strong>Given More Time:</strong> <br>
+                Add persisting playlists to users, like/dislikes to songs, user profiles, and authentication.
+                <p><strong>Tech Stack:</strong> React.js, Firebase, Node.js, Express, Facebook OAuth2, jQuery, SoundCloud API, YouTube API</p>
+                <p><i><a href="https://lldj.firebaseapp.com/">Link to LLDJ</a></i></i><strong>  | </strong><i><a href="https://github.com/ChrisC2/LlamaJams">LlamaJams Repository</a></i></p>
+                <p><i>Updated Link Coming Soon...</i></p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="section contact" id="contact">
+        <div class="four column">
+          <h1>Contact</h1>
+      </div>
+      <div class="row">
+      <div class="col s12">
+        <i class="large material-icons lime-text text-accent-3">email</i>
+      </div>
+      <div class="col s12">
+      <a href="mailto:cjcast@ucla.edu?subject=Subject:&body=Message">Send Me an Email</a>
+    </div>
+</div>
+      <div class="email-wrap">
+        <div class="linkedin icon"><a href="https://www.linkedin.com/profile/view?id=AAIAABNZfowBWjngKP2-I37hxRz9ITiRAWAV5Z0&trk=nav_responsive_tab_profile"></a></div>
+        <div class="github icon"><a href="https://github.com/ChrisC2"></a></div>
+      </div>
+</div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <script src="bower_components/particles.js/particles.min.js"></script>
+  <script src="https://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+  <script src="app.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65221805-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>

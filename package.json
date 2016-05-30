@@ -1,0 +1,17 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "materialize-css": "^0.97.3",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

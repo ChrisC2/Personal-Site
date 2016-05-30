@@ -1,0 +1,23 @@
+{
+  "name": "Personal-Site",
+  "version": "0.0.0",
+  "authors": [
+    "ChrisC2 <chrisjc790@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "~2.0.0",
+    "Materialize": "materialize#~0.97.3"
+  }
+}
